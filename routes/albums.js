@@ -2,7 +2,7 @@ var express 	= require('express');
 var router 		= express.Router();
 var model 		= require('./../lib/model/model-albums');
 
-/* GET album by ID */
+/* GET album by ID  - testing the integration */
 router.get('/id/:albumID', function(req, res) {
 	if(req.param('albumID')){
 		var params = {
